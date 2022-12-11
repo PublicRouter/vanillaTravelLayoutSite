@@ -1,0 +1,20 @@
+{
+  "name": "vanillatravellayoutsite",
+  "version": "1.0.0",
+  "description": "standard website layout focusing on travel images and destinations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PublicRouter/vanillaTravelLayoutSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PublicRouter/vanillaTravelLayoutSite/issues"
+  },
+  "homepage": "https://github.com/PublicRouter/vanillaTravelLayoutSite#readme"
+}
