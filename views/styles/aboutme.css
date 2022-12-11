@@ -1,0 +1,126 @@
+body {
+    background-image: url("https://burst.shopifycdn.com/photos/elaborate-building-interior-with-light-teal-walls.jpg?width=1200&format=pjpg&exif=1&iptc=1");
+    min-height: 100vh;
+}
+
+.aboutMeMain {
+    width: 70vw;
+    text-align: start;
+    margin: auto;
+    color: white;
+}
+
+.aboutMeMain h2 {
+    text-align: start;
+    color: rgb(235, 200, 151);
+}
+
+
+.aboutImageOne {
+    min-height: 450px;
+    width: 80vw;
+    margin: auto;
+    z-index: -10;
+    position: relative;
+    opacity: .8;
+    /* bottom: 49vh; */
+    top: -48vh;
+    right: 6vw;
+    /* overflow: hidden; */
+    background-color: rgb(46, 147, 90);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/ea/79/9f/ea799f4e221e2d1776c980d6b02189d3.jpg");
+}
+
+
+.hiddenTwo {
+    display: none;
+}
+
+.hiddenThree {
+    display: none;
+}
+
+@media screen and (min-width: 740px) {
+    
+    /* .aboutImageOne {
+        min-height: 450px;
+        max-width: 360px;
+        margin: auto;
+        z-index: -10;
+        position: relative;
+        right: 8vw;
+        overflow: hidden;
+    } */
+}
+
+
+@media screen and (min-width: 800px) {
+    .aboutMeMain p {
+        position:relative;
+        top: 14vh;
+    }
+
+    .aboutImageOne {
+        bottom: 40vh;
+        border-left: 3px solid rgb(233, 146, 60);
+        border-bottom: 3px solid rgb(233, 146, 60);
+        width: 33%;  
+        height: 500px; 
+        right: 0px;
+        background-color: rgb(46, 147, 90);
+        background-blend-mode: darken;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://i.pinimg.com/originals/ea/79/9f/ea799f4e221e2d1776c980d6b02189d3.jpg");
+    }
+
+    #aboutImages {
+        display: flex;
+        width: 120%;
+        position: relative;
+        right: 7vw;    
+    }
+
+    .hiddenTwo {
+        display: block;
+        height: 500px;
+        width: 33%;
+        margin: auto;
+        z-index: -10;
+        position: relative;
+        opacity: .8;
+        bottom: 25vh;
+        border-top: 3px solid rgb(233, 146, 60);
+        border-bottom: 3px solid rgb(233, 146, 60);;
+        overflow: hidden;
+        background-color: rgb(46, 147, 90);
+        background-blend-mode: darken;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://i.pinimg.com/564x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg");
+    }
+
+    .hiddenThree {
+        display: block;
+        height: 500px;
+        width: 33%;
+        border-top: 3px solid rgb(233, 146, 60);
+        border-right: 3px solid rgb(233, 146, 60);
+        border-bottom: 3px solid rgb(233, 146, 60);
+        margin: auto;
+        z-index: -10;
+        position: relative;
+        opacity: .8;
+        bottom: 15vh;
+        overflow: hidden;
+        background-color: rgb(73, 195, 126);
+        background-blend-mode: darken;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://media.istockphoto.com/id/638756792/photo/beautiful-woman-posing-against-dark-background.jpg?s=612x612&w=0&k=20&c=AanwEr0pmrS-zhkVJEgAwxHKwnx14ywNh5dmzwbpyLk=");
+    }
+}
+

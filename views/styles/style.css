@@ -1,0 +1,363 @@
+body {
+    /* background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm296-ning-08.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=38ae74fcad0ae7895ad766208eff81cc"); */
+    background-image: url("https://burst.shopifycdn.com/photos/elaborate-building-interior-with-light-teal-walls.jpg?width=1200&format=pjpg&exif=1&iptc=1");
+    /* background-image: url("https://media.discordapp.net/attachments/1021406087825592340/1050588546962047117/coded_crypto_disney_style_animation_background_image_lively_hap_c7f0f455-8895-441f-9231-f2536223cdfe.png"); */
+    min-height: 170vh;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-blend-mode: hard-light; */
+    /* background-blend-mode: lighten; */
+    /* background-color: rgb(35, 81, 50); */
+    /* background-color: rgb(77, 60, 22); */
+    
+}
+
+main {
+    display: flex;
+    min-height: 500px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation */
+nav ul {
+    text-decoration: none;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: auto;
+    width: 60vw;
+    padding-inline: 0px;
+}
+
+nav ul li {
+    color: rgb(105, 78, 39);
+    list-style-type: none;
+    font-size: 1.4rem;
+    margin-right: 2vw;
+}
+
+.navAnchor {
+    text-decoration: none;
+}
+
+.navAnchor,
+.navAnchor:visited,
+.navAnchor:hover,
+.navAnchor:active {
+    color: rgb(233, 146, 60);
+}
+
+/* Intro Header */
+.introDiv h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 3rem;
+    /* color: rgb(95, 64, 32); */
+    color: white;
+}
+
+.introDiv p {
+    margin-block-start: 0px;
+    color: rgb(233, 146, 60);
+
+}
+
+.introDiv {
+    text-align: center;
+    margin: auto;
+    width: 90vw;
+    padding: 20px;
+    padding-top: 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main Images section */
+.imageSection {
+    background-color: transparent;
+    width: 420px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 15px 0px 15px;
+}
+
+.imageOver {
+    background-color: rgb(130, 79, 29);
+    margin: 10px;
+    border: rgb(233, 146, 60)4px solid;
+    /* overflow: hidden; */
+}
+
+.imageOver img {
+    height: 175px;
+    width: 175px;
+}
+
+.asideSection {
+    background-color: rgb(130, 79, 29);
+    margin: 10px 0px 10px 0px;
+    border: rgb(233, 146, 60) 5px solid;
+}
+
+.asideSection img {
+    width: 175px;
+    height: 375px;
+}
+
+/* Home Information Section */
+
+.homeInfo {
+    min-height: 200px;
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.sectionButtons {
+    height: 60px;
+    width: 180px;
+    /* border: solid 3px rgb(137, 99, 44); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 1vh;
+    /* border-radius: 25px;
+    color: rgb(137, 99, 44);
+    background-color: rgb(255, 255, 255, .4);
+    backdrop-filter: blur(20px); */
+}
+
+.sectionButtons button {
+    height: 100%;
+    width: 100%;
+    border: solid 3px rgb(233, 146, 60);
+    border-radius: 25px;
+    background-color: white;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/006/077/946/non_2x/peach-abstract-watercolor-texture-background-brown-watercolour-pattern-vector.jpg");
+    background-position: center; */
+    color: rgb(233, 146, 60);
+    font-size: 1.1em;
+}
+
+.sectionButtons button:hover {
+    background-image: none;
+    /* background-image: url("https://img.myloview.com/stickers/peachy-texture-with-gold-paint-leaks-and-stains-craft-background-700-209702985.jpg"); */
+    background-color: rgb(233, 136, 38);
+    color: white;
+}
+
+.homeCategoryInfo {
+    height: 250px;
+    width: 160px;
+    border: solid 3px rgb(137, 99, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 1vh;
+    border-radius: 25px;
+    color: rgb(137, 99, 44);
+}
+
+.homeCategoryInfo ul {
+    padding: 0px;
+}
+
+/* Main Footer */
+.mainFooter {
+    height: 100px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* CAROJSEL */
+.wrapper {
+    /* background-image: url("https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?w=2000"); */
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/006/077/946/non_2x/peach-abstract-watercolor-texture-background-brown-watercolour-pattern-vector.jpg"); */
+    margin-top: 10vh;
+    margin-inline: 3vw;
+    background-color: transparent;
+    z-index: -1;
+    backdrop-filter: blur(2px);
+    border: solid 3px rgb(233, 146, 60);
+    border-radius: 30px;
+}
+
+.items-container {
+    display: flex;
+    gap: 15px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 30px;
+    padding-inline: 30vw;
+    padding-block: 15px;
+    height: 300px;
+    width: 30vw;
+    /* margin-inline: auto; */
+    /* aspect-ratio: 7/3; */
+    background: transparent;
+    box-shadow: 0 3px 10px 0px rgb(0 0 0 / 9%);
+    border-radius: 8px;
+}
+
+.items-container .item {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    /* height: 150px;
+    width: 80px;  */
+}
+
+.YVj9w {
+    border-radius: 15px;
+}
+
+.items-container .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.items-container .item img>*:first-child {
+    margin-left: -14px;
+}
+
+.items-container .item img>*:last-child {
+    margin-right: -15px;
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+    .introDiv {
+        padding-top: 0px;
+    }
+
+    .imageSection {
+        width: 520px;
+    }
+
+    .imageOver img {
+        height: 175px;
+        width: 225px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        flex-direction: column;
+        /* max-height: 60vh; */
+    }
+
+    .asideSection {
+        display: none;
+    }
+
+    .items-container .item {
+        flex: 0 0 130%;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        height: 100%;
+        width: 80px;
+    }
+
+    .sectionButtons {
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        min-height: 130vh;
+    }
+
+    main {
+        padding: 0px;
+        min-height: 380px;
+    }
+
+    /* nav ul {
+        margin-inline: auto;
+        width: 70vw;
+        padding-inline: 0px;
+    } */
+
+    .wrapper {
+        margin-top: 10px;
+        border: none;
+    }
+
+    .items-container {
+        margin: 0px;
+        height: 250px;
+    }
+
+    .items-container .item {
+        flex: 0 0 150%;
+    }
+
+    .imageSection {
+        width: 99vw;
+        padding: 0px;
+    }
+
+    .imageOver img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .sectionButtons {
+        width: 80vw;
+    }
+
+    .sectionButtons button {
+        font-size: 1.2em;
+    }
+
+
+}
+
+@media screen and (max-width: 660px) {
+    .homeInfo {
+        width: 90vw;
+        flex-wrap: wrap;
+        height: fit-content;
+        padding: 8px;
+    }
+
+    .homeCategoryInfo {
+        width: 80vw;
+        height: 180px;
+        margin: 8px;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    nav ul {
+        width: 35vw;
+        margin: 0px;
+        margin-left: 5vw;
+        padding-top: 7vh;
+        padding-bottom: 7vh;
+    }
+}

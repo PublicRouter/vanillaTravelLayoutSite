@@ -1,0 +1,114 @@
+
+.workMain {
+    text-align: center;
+}
+
+.mainSection {
+    width: 90vw;
+    margin: auto;
+    padding-top: 5vh ;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.topWorkCards {
+    padding: .5rem;
+    min-height: 50vh;
+    border-radius: 25px;
+    /* background-color: rgb(233, 146, 60); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    backdrop-filter: blur(2px);
+    opacity: .85;
+}
+
+.eachCard {
+    width: 70%;
+    height:90%;
+    margin: .25rem;
+    border-radius: 20px;
+    background-color: white;
+    font-size: .5em;
+    color: black;
+    padding: .5rem;
+    border: 3px solid rgb(233, 146, 60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eachCard h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(233, 146, 60);
+}
+
+.eachCard p {
+    max-width: 80%;
+}
+
+
+
+.workImage1 {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/585ac0bb414fb5eed215d4e3/1588202699404-B8V1QQZ8SRO9GTVK8LC3/luxury-event-planner-nyc-new-england");
+    background-color: rgb(73, 195, 126);
+    /* background-blend-mode: darken; */
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* margin: auto; */
+}
+
+
+@media screen and (min-width: 500px) {
+    .mainSection {
+        width: 75vw;
+    }
+
+    .topWorkCards {
+        padding: .75rem;
+        min-height: 50vh;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        backdrop-filter: blur(20px);
+        opacity: .85;
+    }
+    
+    .eachCard {
+        width: 40%;
+        height:90%;
+        border-radius: 20px;
+        background-color: white;
+        font-size: .5em;
+        color: black;
+        padding: .5rem;
+        border: 3px solid rgb(233, 146, 60);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .workImage1 {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .mainSection {
+        width: 90vw;
+    }
+    .eachCard {
+        width: 21%;
+        min-height: 330px;
+    }
+}
